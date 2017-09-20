@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aeron11/react-es6-webpack-karma-boilerplate.git"
+    "url": "https://github.com/aeron11/nextjs-webapp-boilerplate.git"
   },
   "keywords": [
     "node.js",
