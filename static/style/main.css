@@ -1,0 +1,177 @@
+@charset "UTF-8";
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft Yahei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, label, select, option, textarea, button, fieldset, legend {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft Yahei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", sans-serif;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: #eee;
+}
+
+html {
+  font-size: 22px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+q:before, q:after,
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+a {
+  text-decoration: none;
+}
+
+a, img {
+  -webkit-touch-callout: none;
+}
+a img, img {
+  border: 0;
+}
+
+html, body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body{
+  background:url(../images/loginBg.jpeg) center repeat-y;
+  overflow:scroll;
+}
+
+/* loading progress bar styles */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #ff9300;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #ff9300, 0 0 5px #ff9300;
+  opacity: 1.0;
+  transform: rotate(3deg) translate(0px, -4px);
+}
+.innerBox{
+  background-color:#fff;
+  padding: 0;
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+}
+.content{
+  padding: 20px;
+  width: 820px;
+  float: right;
+  background-color:#fff;
+}
+.main-content{
+  padding: 10px;
+  width: 1024px;
+  background-color:#fff;
+}
+
+.header-top {
+  background: #f7f7f7;
+  color: #909090;
+  height: 28px;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  overflow: hidden;
+  font-size:13px;
+}
+.header-contact {
+  float: left;
+}
+.header-contact li {
+  float: left;
+  padding-left: 10px;
+  margin-right: 10px;
+  height: 28px;
+  line-height: 28px;
+}
+.header-contact a {
+  display: inline-block;
+  color: #909090;
+}
+.header-login {
+  float: right;
+}
+.header-login li{
+  float: left;
+  padding-left: 10px;
+  margin-right: 10px;
+  height: 28px;
+  line-height: 28px;
+}
+.header-login li span{
+  padding-left: 5px;
+}
+.orange {
+  color: #ff7200;
+}
+.header-login li a {
+  color: #909090;
+}
+.header-login li a.orange, .header-login li .orange {
+  color: #ff7200;
+}
+.header-login li.gray {
+  color: #c8c8c8;
+  padding: 0 6px;
+}
+.grey-line{
+  margin: 10px;
+  border-bottom: 1px dashed grey;
+
+}

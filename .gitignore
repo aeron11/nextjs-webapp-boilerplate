@@ -1,0 +1,27 @@
+.idea/
+.next/
+.env
+
+### macOS ###
+*.DS_Store
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+### WebStorm ###
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries

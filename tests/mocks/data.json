@@ -1,0 +1,30 @@
+{
+  "fans": {
+  "results": [
+    {
+      "name": "fan1 test",
+      "description": "some description here"
+    },
+    {
+      "name": "fan2 test",
+      "description": "some description here"
+    },
+    {
+      "name": "fan3 test",
+      "description": "some description here"
+    },
+    {
+      "name": "fan4 test",
+      "description": "some description here"
+    },
+    {
+      "name": "fan5 test",
+      "description": "some description here"
+    },
+    {
+      "name": "fan6 test",
+      "description": "some description here"
+    }
+  ]
+}
+}
