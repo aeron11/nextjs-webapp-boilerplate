@@ -1,6 +1,6 @@
 # nextjs-webapp-boilerplate
   
-  This is a WebApp boilerplate project based on Node.js platform, use Next.js,React.js,Express.js,ES6,webpack to build,using jest to do unit testing.
+  This is a WebApp boilerplate project based on Node.js platform, use Next.js,React.js,Express.js,Ant-design,ES6,webpack to build,using jest to do unit testing.
   This site includes some common components such as Header,Footer,Nav,BreadCrumb,Sidebar or GridList,and some pages
   which could be visit without login, and some other pages which could be visit after login.
   
@@ -38,7 +38,8 @@
 - [connect-redis](https://github.com/tj/connect-redis)
 - [React](https://facebook.github.io/react/)
 - [ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla)
-- [Sass](https://github.com/reactjs/redux)
+- [Sass](http://sass-lang.com/)
+- [Ant-Design](https://ant.design/docs/react/introduce)
 - [Babel](https://babeljs.io/)
 - [webpack](https://webpack.github.io/)
 - [jest](http://facebook.github.io/jest/)
