@@ -8,7 +8,7 @@
   it will redirect to login page, you can login using ID: test@test.com with sixes 1 password.
   
 ```shell
-  $ git clone it
+  $ git clone git@github.com:aeron11/nextjs-webapp-boilerplate.git
   $ cd nextjs-webapp-boilerplate
   $ npm install
   $ npm run dev
@@ -86,7 +86,6 @@
 └── server.js                 # app start file
 ```
 
-## images
 
 ### system infrastructure
   ---------------------------------------------------------------------------------------
