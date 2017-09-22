@@ -8,6 +8,8 @@ import BreadCrumb from '../components/Common/BreadCrumb'
 import HeaderTop from '../components/Common/HeaderTop'
 import Sidebar from '../components/Common/SideBar'
 import Meta from '../components/Common/Meta'
+import { LocaleProvider } from 'antd';
+import enUS from 'antd/lib/locale-provider/en_US';
 
 export default class Layout extends React.Component {
   static propTypes() {
@@ -20,19 +22,21 @@ export default class Layout extends React.Component {
 
   render() {
     return (
-      <div>
-        <Meta />
-        <HeaderTop session={this.props.session}/>
-        <Header />
-        <BreadCrumb />
-        <div className="innerBox">
-          <Sidebar currentPath={this.props.curPath}/>
-          <div className="content">
-            {this.props.children}
+      <LocaleProvider locale={enUS}>
+        <div>
+          <Meta />
+          <HeaderTop session={this.props.session}/>
+          <Header />
+          <BreadCrumb />
+          <div className="innerBox">
+            <Sidebar currentPath={this.props.curPath}/>
+            <div className="content">
+              {this.props.children}
+            </div>
           </div>
+          <Footer/>
         </div>
-        <Footer/>
-      </div>
+      </LocaleProvider>
     )
   }
 
